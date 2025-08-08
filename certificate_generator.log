@@ -1,0 +1,150 @@
+2025-08-08 18:20:41,518 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:20:41,519 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:20:41,521 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:20:41,522 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:20:41,522 - WARNING - Font file not found: assets/fonts/Moontime.ttf
+2025-08-08 18:20:41,523 - INFO - Loaded font: AlexBrush
+2025-08-08 18:20:41,523 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:20:41,524 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:20:41,524 - INFO - Font loading completed
+2025-08-08 18:20:41,526 - INFO - Successfully read CSV file: uploads/75a0f887/data.csv
+2025-08-08 18:20:41,526 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:20:41,528 - INFO - Valid data rows: 5
+2025-08-08 18:20:41,551 - INFO - Generated certificate: certificates/run_75a0f887/CERT001.pdf
+2025-08-08 18:20:41,572 - INFO - Generated certificate: certificates/run_75a0f887/CERT002.pdf
+2025-08-08 18:20:41,605 - INFO - Generated certificate: certificates/run_75a0f887/CERT003.pdf
+2025-08-08 18:20:41,627 - INFO - Generated certificate: certificates/run_75a0f887/CERT004.pdf
+2025-08-08 18:20:41,647 - INFO - Generated certificate: certificates/run_75a0f887/CERT005.pdf
+2025-08-08 18:20:41,647 - INFO - Certificate generation completed:
+2025-08-08 18:20:41,647 - INFO -   Total processed: 5
+2025-08-08 18:20:41,647 - INFO -   Successful: 5
+2025-08-08 18:20:41,648 - INFO -   Failed: 0
+2025-08-08 18:26:20,775 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:26:20,777 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:26:20,778 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:26:20,782 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:26:20,782 - WARNING - Font file not found: assets/fonts/Moontime.ttf
+2025-08-08 18:26:20,784 - INFO - Loaded font: AlexBrush
+2025-08-08 18:26:20,784 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:26:20,784 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:26:20,784 - INFO - Font loading completed
+2025-08-08 18:26:20,786 - INFO - Successfully read CSV file: uploads/df96cde6/data.csv
+2025-08-08 18:26:20,786 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:26:20,789 - INFO - Valid data rows: 5
+2025-08-08 18:26:20,811 - INFO - Generated certificate: certificates/run_df96cde6/CERT001.pdf
+2025-08-08 18:26:20,832 - INFO - Generated certificate: certificates/run_df96cde6/CERT002.pdf
+2025-08-08 18:26:20,854 - INFO - Generated certificate: certificates/run_df96cde6/CERT003.pdf
+2025-08-08 18:26:20,875 - INFO - Generated certificate: certificates/run_df96cde6/CERT004.pdf
+2025-08-08 18:26:20,895 - INFO - Generated certificate: certificates/run_df96cde6/CERT005.pdf
+2025-08-08 18:26:20,896 - INFO - Certificate generation completed:
+2025-08-08 18:26:20,896 - INFO -   Total processed: 5
+2025-08-08 18:26:20,896 - INFO -   Successful: 5
+2025-08-08 18:26:20,896 - INFO -   Failed: 0
+2025-08-08 18:31:02,066 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:31:02,068 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:31:02,070 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:31:02,073 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:31:02,073 - WARNING - Failed to register font Moontime: Not a recognized TrueType font: version=0x54686973
+2025-08-08 18:31:02,074 - INFO - Loaded font: AlexBrush
+2025-08-08 18:31:02,074 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:31:02,074 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:31:02,074 - INFO - Font loading completed
+2025-08-08 18:31:02,075 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:31:02,075 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:31:02,077 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:31:02,078 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:31:02,078 - WARNING - Failed to register font Moontime: Not a recognized TrueType font: version=0x54686973
+2025-08-08 18:31:02,079 - INFO - Loaded font: AlexBrush
+2025-08-08 18:31:02,079 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:31:02,079 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:31:02,079 - INFO - Font loading completed
+2025-08-08 18:31:35,919 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:31:35,920 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:31:35,922 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:31:35,924 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:31:35,925 - WARNING - Failed to register font Moontime: Not a recognized TrueType font: version=0x54686973
+2025-08-08 18:31:35,926 - INFO - Loaded font: AlexBrush
+2025-08-08 18:31:35,926 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:31:35,926 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:31:35,926 - INFO - Font loading completed
+2025-08-08 18:32:11,189 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:32:11,190 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:32:11,195 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:32:11,200 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:32:11,200 - WARNING - Failed to register font Moontime: Not a recognized TrueType font: version=0x54686973
+2025-08-08 18:32:11,202 - INFO - Loaded font: AlexBrush
+2025-08-08 18:32:11,202 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:32:11,202 - INFO - Using fallback font 'AlexBrush' for 'Moontime'
+2025-08-08 18:32:11,202 - INFO - Font loading completed
+2025-08-08 18:32:11,208 - INFO - Successfully read CSV file: uploads/170b7298/data.csv
+2025-08-08 18:32:11,208 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:32:11,211 - INFO - Valid data rows: 5
+2025-08-08 18:32:11,246 - INFO - Generated certificate: certificates/run_170b7298/CERT001.pdf
+2025-08-08 18:32:11,313 - INFO - Generated certificate: certificates/run_170b7298/CERT002.pdf
+2025-08-08 18:32:11,345 - INFO - Generated certificate: certificates/run_170b7298/CERT003.pdf
+2025-08-08 18:32:11,382 - INFO - Generated certificate: certificates/run_170b7298/CERT004.pdf
+2025-08-08 18:32:11,410 - INFO - Generated certificate: certificates/run_170b7298/CERT005.pdf
+2025-08-08 18:32:11,410 - INFO - Certificate generation completed:
+2025-08-08 18:32:11,411 - INFO -   Total processed: 5
+2025-08-08 18:32:11,411 - INFO -   Successful: 5
+2025-08-08 18:32:11,411 - INFO -   Failed: 0
+2025-08-08 18:32:16,563 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:32:16,564 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:32:16,566 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:32:16,569 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:32:16,569 - WARNING - Failed to register font Moontime: Not a recognized TrueType font: version=0x54686973
+2025-08-08 18:32:16,571 - INFO - Loaded font: AlexBrush
+2025-08-08 18:32:16,571 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:32:16,571 - INFO - Using fallback font 'AlexBrush' for 'Moontime'
+2025-08-08 18:32:16,571 - INFO - Font loading completed
+2025-08-08 18:36:45,957 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:36:45,958 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:36:45,959 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:36:45,962 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:36:45,963 - INFO - Loaded font: Moontime
+2025-08-08 18:36:45,963 - WARNING - Font file not found: assets/fonts/Alex_Brush/AlexBrush-Regular.ttf
+2025-08-08 18:36:45,963 - WARNING - Missing fonts: AlexBrush. Using fallbacks.
+2025-08-08 18:36:45,963 - INFO - Using fallback font 'Courier-Bold' for 'AlexBrush'
+2025-08-08 18:36:45,964 - INFO - Font loading completed
+2025-08-08 18:36:45,967 - INFO - Successfully read CSV file: uploads/a7eab6d3/data.csv
+2025-08-08 18:36:45,968 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:36:45,970 - INFO - Valid data rows: 5
+2025-08-08 18:36:45,991 - INFO - Generated certificate: certificates/run_a7eab6d3/CERT001.pdf
+2025-08-08 18:36:46,011 - INFO - Generated certificate: certificates/run_a7eab6d3/CERT002.pdf
+2025-08-08 18:36:46,031 - INFO - Generated certificate: certificates/run_a7eab6d3/CERT003.pdf
+2025-08-08 18:36:46,050 - INFO - Generated certificate: certificates/run_a7eab6d3/CERT004.pdf
+2025-08-08 18:36:46,068 - INFO - Generated certificate: certificates/run_a7eab6d3/CERT005.pdf
+2025-08-08 18:36:46,068 - INFO - Certificate generation completed:
+2025-08-08 18:36:46,068 - INFO -   Total processed: 5
+2025-08-08 18:36:46,068 - INFO -   Successful: 5
+2025-08-08 18:36:46,068 - INFO -   Failed: 0
+2025-08-08 18:42:29,264 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:42:29,265 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:42:29,266 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:42:29,270 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:42:29,271 - INFO - Loaded font: AlexBrush
+2025-08-08 18:42:29,271 - INFO - Font loading completed
+2025-08-08 18:42:29,275 - INFO - Successfully read CSV file: uploads/a391f5a7/data.csv
+2025-08-08 18:42:29,275 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:42:29,278 - INFO - Valid data rows: 5
+2025-08-08 18:42:29,302 - INFO - Generated certificate: certificates/run_a391f5a7/CERT001.pdf
+2025-08-08 18:42:29,322 - INFO - Generated certificate: certificates/run_a391f5a7/CERT002.pdf
+2025-08-08 18:42:29,345 - INFO - Generated certificate: certificates/run_a391f5a7/CERT003.pdf
+2025-08-08 18:42:29,365 - INFO - Generated certificate: certificates/run_a391f5a7/CERT004.pdf
+2025-08-08 18:42:29,385 - INFO - Generated certificate: certificates/run_a391f5a7/CERT005.pdf
+2025-08-08 18:42:29,385 - INFO - Certificate generation completed:
+2025-08-08 18:42:29,385 - INFO -   Total processed: 5
+2025-08-08 18:42:29,385 - INFO -   Successful: 5
+2025-08-08 18:42:29,386 - INFO -   Failed: 0
+2025-08-08 18:43:01,502 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:43:01,503 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:43:01,505 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:43:01,508 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:43:01,509 - INFO - Loaded font: AlexBrush
+2025-08-08 18:43:01,509 - INFO - Font loading completed
+2025-08-08 18:43:01,510 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:43:01,511 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:43:01,512 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:43:01,513 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:43:01,514 - INFO - Loaded font: AlexBrush
+2025-08-08 18:43:01,514 - INFO - Font loading completed

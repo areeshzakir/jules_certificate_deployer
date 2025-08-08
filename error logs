@@ -1,0 +1,161 @@
+when running on streamlit, I am facing an issue. Logs are as follows - 
+>> Running:
+/Users/classplus/My Projects/Temp Project/certificate-ui/certificate_workflow.sh uploads/75a0f887/data.csv uploads/75a0f887/template.pdf certificates/run_75a0f887
+
+>> STDOUT:
+Activating virtual environment...
+Installing dependencies...
+Requirement already satisfied: streamlit>=1.35 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.48.0)
+Requirement already satisfied: python-dotenv>=1.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (1.1.1)
+Requirement already satisfied: reportlab>=3.6.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (4.4.3)
+Requirement already satisfied: pillow>=9.0.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (11.3.0)
+Requirement already satisfied: google-api-python-client>=2.0.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.178.0)
+Requirement already satisfied: google-auth-httplib2>=0.1.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (0.2.0)
+Requirement already satisfied: google-auth-oauthlib>=0.5.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (1.2.2)
+Requirement already satisfied: pandas>=1.3.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.3.1)
+Requirement already satisfied: openpyxl>=3.0.0 in ./venv/lib/python3.13/site-packages (from -r requirements.txt (line 10)) (3.1.5)
+Collecting pypdf<5,>=4 (from -r requirements.txt (line 11))
+  Downloading pypdf-4.3.1-py3-none-any.whl.metadata (7.4 kB)
+Requirement already satisfied: altair!=5.4.0,!=5.4.1,<6,>=4.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (1.9.0)
+Requirement already satisfied: cachetools<7,>=4.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (5.5.2)
+Requirement already satisfied: click<9,>=7.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (8.2.1)
+Requirement already satisfied: numpy<3,>=1.23 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (2.3.2)
+Requirement already satisfied: packaging<26,>=20 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: protobuf<7,>=3.20 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (6.31.1)
+Requirement already satisfied: pyarrow>=7.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (21.0.0)
+Requirement already satisfied: requests<3,>=2.27 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (2.32.4)
+Requirement already satisfied: tenacity<10,>=8.1.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (9.1.2)
+Requirement already satisfied: toml<2,>=0.10.1 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (4.14.1)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (3.1.45)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (0.9.1)
+Requirement already satisfied: tornado!=6.5.0,<7,>=6.0.3 in ./venv/lib/python3.13/site-packages (from streamlit>=1.35->-r requirements.txt (line 2)) (6.5.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./venv/lib/python3.13/site-packages (from pandas>=1.3.0->-r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in ./venv/lib/python3.13/site-packages (from pandas>=1.3.0->-r requirements.txt (line 9)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./venv/lib/python3.13/site-packages (from pandas>=1.3.0->-r requirements.txt (line 9)) (2025.2)
+Requirement already satisfied: jinja2 in ./venv/lib/python3.13/site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (3.1.6)
+Requirement already satisfied: jsonschema>=3.0 in ./venv/lib/python3.13/site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (4.25.0)
+Requirement already satisfied: narwhals>=1.14.2 in ./venv/lib/python3.13/site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (2.0.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in ./venv/lib/python3.13/site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit>=1.35->-r requirements.txt (line 2)) (4.0.12)
+Requirement already satisfied: smmap<6,>=3.0.1 in ./venv/lib/python3.13/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit>=1.35->-r requirements.txt (line 2)) (5.0.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 2)) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.13/site-packages (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 2)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 2)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests<3,>=2.27->streamlit>=1.35->-r requirements.txt (line 2)) (2025.8.3)
+Requirement already satisfied: httplib2<1.0.0,>=0.19.0 in ./venv/lib/python3.13/site-packages (from google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (0.22.0)
+Requirement already satisfied: google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0 in ./venv/lib/python3.13/site-packages (from google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (2.40.3)
+Requirement already satisfied: google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5 in ./venv/lib/python3.13/site-packages (from google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (2.25.1)
+Requirement already satisfied: uritemplate<5,>=3.0.1 in ./venv/lib/python3.13/site-packages (from google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (4.2.0)
+Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.56.2 in ./venv/lib/python3.13/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (1.70.0)
+Requirement already satisfied: proto-plus<2.0.0,>=1.22.3 in ./venv/lib/python3.13/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (1.26.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in ./venv/lib/python3.13/site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (0.4.2)
+Requirement already satisfied: rsa<5,>=3.1.4 in ./venv/lib/python3.13/site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (4.9.1)
+Requirement already satisfied: pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 in ./venv/lib/python3.13/site-packages (from httplib2<1.0.0,>=0.19.0->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (3.2.3)
+Requirement already satisfied: pyasn1>=0.1.3 in ./venv/lib/python3.13/site-packages (from rsa<5,>=3.1.4->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.0.0->-r requirements.txt (line 6)) (0.6.1)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in ./venv/lib/python3.13/site-packages (from google-auth-oauthlib>=0.5.0->-r requirements.txt (line 8)) (2.0.0)
+Requirement already satisfied: et-xmlfile in ./venv/lib/python3.13/site-packages (from openpyxl>=3.0.0->-r requirements.txt (line 10)) (2.0.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.13/site-packages (from jinja2->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in ./venv/lib/python3.13/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in ./venv/lib/python3.13/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in ./venv/lib/python3.13/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in ./venv/lib/python3.13/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit>=1.35->-r requirements.txt (line 2)) (0.27.0)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.13/site-packages (from python-dateutil>=2.8.2->pandas>=1.3.0->-r requirements.txt (line 9)) (1.17.0)
+Requirement already satisfied: oauthlib>=3.0.0 in ./venv/lib/python3.13/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib>=0.5.0->-r requirements.txt (line 8)) (3.3.1)
+Downloading pypdf-4.3.1-py3-none-any.whl (295 kB)
+Installing collected packages: pypdf
+Successfully installed pypdf-4.3.1
+Configuring environment for email sending...
+\n========================================
+STEP 1: GENERATING CERTIFICATES
+========================================\n
+Generating certificates using uploads/75a0f887/data.csv and uploads/75a0f887/template.pdf...
+2025-08-08 18:20:41,518 - INFO - Loaded font: Unna-Bold
+2025-08-08 18:20:41,519 - INFO - Loaded font: Unna-Italic
+2025-08-08 18:20:41,521 - INFO - Loaded font: Lora-Bold
+2025-08-08 18:20:41,522 - INFO - Loaded font: Lora-Regular
+2025-08-08 18:20:41,522 - WARNING - Font file not found: assets/fonts/Moontime.ttf
+2025-08-08 18:20:41,523 - INFO - Loaded font: AlexBrush
+2025-08-08 18:20:41,523 - WARNING - Missing fonts: Moontime. Using fallbacks.
+2025-08-08 18:20:41,524 - INFO - Using fallback font 'Courier-Bold' for 'Moontime'
+2025-08-08 18:20:41,524 - INFO - Font loading completed
+2025-08-08 18:20:41,526 - INFO - Successfully read CSV file: uploads/75a0f887/data.csv
+2025-08-08 18:20:41,526 - INFO - CSV contains 5 rows and 9 columns
+2025-08-08 18:20:41,528 - INFO - Valid data rows: 5
+2025-08-08 18:20:41,551 - INFO - Generated certificate: certificates/run_75a0f887/CERT001.pdf
+2025-08-08 18:20:41,572 - INFO - Generated certificate: certificates/run_75a0f887/CERT002.pdf
+2025-08-08 18:20:41,605 - INFO - Generated certificate: certificates/run_75a0f887/CERT003.pdf
+2025-08-08 18:20:41,627 - INFO - Generated certificate: certificates/run_75a0f887/CERT004.pdf
+2025-08-08 18:20:41,647 - INFO - Generated certificate: certificates/run_75a0f887/CERT005.pdf
+2025-08-08 18:20:41,647 - INFO - Certificate generation completed:
+2025-08-08 18:20:41,647 - INFO -   Total processed: 5
+2025-08-08 18:20:41,647 - INFO -   Successful: 5
+2025-08-08 18:20:41,648 - INFO -   Failed: 0
+
+============================================================
+CERTIFICATE GENERATION SUMMARY
+============================================================
+Total processed: 5
+Successful: 5
+Failed: 0
+
+File Storage Locations:
+  Output Directory: /Users/classplus/My Projects/Temp Project/certificate-ui/certificates/run_75a0f887
+  CSV Source: uploads/75a0f887/data.csv
+  Generated Files:
+    CERT001.pdf (John Doe) - 0.17 MB
+    CERT002.pdf (Jane Smith) - 0.17 MB
+    CERT003.pdf (Michael Johnson) - 0.17 MB
+    CERT004.pdf (Emily Brown) - 0.17 MB
+    CERT005.pdf (David Wilson) - 0.17 MB
+  Total Size: 0.85 MB
+
+Font Usage Report:
+  Custom Fonts Loaded: Unna-Bold, Unna-Italic, Lora-Bold, Lora-Regular, AlexBrush
+  Fallback Fonts Used:
+    Moontime → Courier-Bold
+  Missing Fonts: Moontime
+============================================================
+\n========================================
+STEP 2: SENDING EMAILS
+========================================\n
+Sending emails with certificates...
+INFO:root:email_sender loaded from: /Users/classplus/My Projects/Temp Project/certificate-ui/email_sender.py
+INFO:root:cwd: /Users/classplus/My Projects/Temp Project/certificate-ui
+INFO:root:Starting email sending process
+INFO:root:Using local CSV file: /Users/classplus/My Projects/Temp Project/certificate-ui/uploads/75a0f887/data.csv
+INFO:root:No valid credentials found, initiating OAuth flow
+ERROR:root:Failed to get Google credentials: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Error sending email to areesh@classplus.co: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Failed to process email for John Doe (areesh@classplus.co): Failed to send email to areesh@classplus.co: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+INFO:root:No valid credentials found, initiating OAuth flow
+ERROR:root:Failed to get Google credentials: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Error sending email to jane.smith@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Failed to process email for Jane Smith (jane.smith@example.com): Failed to send email to jane.smith@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+INFO:root:No valid credentials found, initiating OAuth flow
+ERROR:root:Failed to get Google credentials: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Error sending email to michael.johnson@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Failed to process email for Michael Johnson (michael.johnson@example.com): Failed to send email to michael.johnson@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+INFO:root:No valid credentials found, initiating OAuth flow
+ERROR:root:Failed to get Google credentials: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Error sending email to emily.brown@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Failed to process email for Emily Brown (emily.brown@example.com): Failed to send email to emily.brown@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+INFO:root:No valid credentials found, initiating OAuth flow
+ERROR:root:Failed to get Google credentials: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Error sending email to david.wilson@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+ERROR:root:Failed to process email for David Wilson (david.wilson@example.com): Failed to send email to david.wilson@example.com: Failed to authenticate with Google: [Errno 2] No such file or directory: 'credentials.json'
+INFO:root:Email sending process completed
+INFO:root:Summary: 0 emails sent successfully, 5 failed
+\n========================================
+WORKFLOW COMPLETED SUCCESSFULLY
+========================================\n
+Certificates were generated and emails were sent.
+Check the log files for details:
+  - Certificate generation: certificate_generator.log
+  - Email sending: email_sender.log
+
+
+>> STDERR:
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
